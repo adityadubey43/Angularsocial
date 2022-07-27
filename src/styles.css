@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500;600;900&display=swap');
+
+.gredient {
+    /* border: 2px solid black; */
+    height: 100%;
+    background: rgb(251, 201, 190);
+    background: -moz-linear-gradient(281deg, rgba(251, 201, 190, 1) 2%, rgba(255, 224, 198, 1) 68%, rgba(245, 255, 229, 1) 100%);
+    background: -webkit-linear-gradient(281deg, rgba(251, 201, 190, 1) 2%, rgba(255, 224, 198, 1) 68%, rgba(245, 255, 229, 1) 100%);
+    background: linear-gradient(281deg, rgba(251, 201, 190, 1) 2%, rgba(255, 224, 198, 1) 68%, rgba(245, 255, 229, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbc9be", endColorstr="#f5ffe5", GradientType=1);
+}
+*{
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    font-size: 3.5rem;
+}
+.width90{
+    width: 90%;
+}
+@media screen and (max-width: 700px) {
+    .rightimage{
+        width: 342px;
+        height: 255px;
+        margin-top: 32px;
+    }
+  }

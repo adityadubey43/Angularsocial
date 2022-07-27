@@ -1,0 +1,11 @@
+.logo {
+    width: 20%;
+}
+
+.navcolor {
+    background: rgb(255, 197, 184);
+    background: -moz-linear-gradient(281deg, rgba(255, 197, 184, 1) 2%, rgba(255, 213, 176, 1) 53%, rgba(245, 255, 229, 1) 100%);
+    background: -webkit-linear-gradient(281deg, rgba(255, 197, 184, 1) 2%, rgba(255, 213, 176, 1) 53%, rgba(245, 255, 229, 1) 100%);
+    background: linear-gradient(281deg, rgba(255, 197, 184, 1) 2%, rgba(255, 213, 176, 1) 53%, rgba(245, 255, 229, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffc5b8", endColorstr="#f5ffe5", GradientType=1);
+}

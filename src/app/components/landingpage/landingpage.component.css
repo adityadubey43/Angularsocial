@@ -1,0 +1,47 @@
+.leftpart{
+    width: 500px;
+    /* text-align: center; */
+    position: relative;
+    animation-name: leftimage;
+    animation-duration: 2s;
+}
+@keyframes leftimage {
+    0%{left:-200px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+.rightimage{
+    width: 700px;
+    height: 460px;
+    position: relative;
+    animation-name: rightimage;
+    animation-duration: 2s;
+}
+@keyframes rightimage {
+        0%  {left:200px; top:0px;}
+        100% {left:0px; top:0px;}
+    }
+
+.Buttons{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+.button1{
+    /* border: 2px solid; */
+}
+.linkbutton{
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 5px 0px 5px;
+    border-color: rgb(0, 158, 0);
+    color: black;
+}
+@media screen and (max-width: 700px) {
+    .rightimage{
+        width: 342px;
+        height: 255px;
+        margin-top: 32px;
+    }
+  }
